@@ -77,4 +77,14 @@ int main()
 </code>
 
 ## Below is the Sample Run Time Screen
-![image](https://user-images.githubusercontent.com/77758884/132588180-d0130695-0da5-4ec3-b6ea-ea15c39d61b9.png)
+
+  ![image](https://user-images.githubusercontent.com/77758884/132999865-079c5e8f-6ca0-43fc-8b12-d4d11283d5d8.png)
+
+ Below is the sample Runtime screen for the Additional example.
+ 
+ ![image](https://user-images.githubusercontent.com/77758884/132999840-3a204cff-05dc-4904-8dd7-bedcb25d7eaa.png)
+
+  
+  
+ As can be shown above, the floats are in column like representation. 
+ This is made possible with the width format specifier.
