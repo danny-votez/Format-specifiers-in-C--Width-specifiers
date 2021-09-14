@@ -33,5 +33,28 @@ int main()
     printf("Weight is %-30i Kgs\n", weight);
     printf("Weight is %40i Kgs\n", weight);
 
+    // ADDITIONAL EXAMPLES
+
+    // The width specifier can also be used to make printed variable be in columns
+// This can be illustrated with the examples below;
+
+    printf("\n|===================SEPARATOR===============|\n");
+
+    float rate0, rate1, rate2, rate3, rate4, rate5, rate6, rate7, rate8, rate9;
+    rate0 = 3.5266; rate1 = 4.8883; rate2 = 5.6626; rate3 = 4.24252; rate4 = 2.9828;
+    rate5 = 9.6262; rate6 = 5.9282; rate7 = 1.8282; rate8 = 7.5252; rate9 = 3.8262;
+    printf("%10.4f%10.4f%10.4f%10.4f\n%10.4f%10.4f%10.4f%10.4f\n", rate0, rate1, rate3, rate4, rate5, rate6, rate7, rate8, rate9);
+
+    
+    // The value 10 specifies the width format
+    // The value .4 specifies the number of decimal places to have
+    // If not specified, C adds 6 decimal places
+
+
+// The output will look like this;
+
+// 3.5266   4.8883    5.6626   4.24252   2.9828
+// 9.6262   5.9282    1.8282   7.5252    3.8262
+
     return 0;
 }
